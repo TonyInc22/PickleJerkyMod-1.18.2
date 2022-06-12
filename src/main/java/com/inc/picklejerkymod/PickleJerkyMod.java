@@ -25,7 +25,6 @@ public class PickleJerkyMod
     private static final Logger LOGGER = LogUtils.getLogger();
     public static final String MOD_ID = "picklejerkymod";
 
-    //test
     public PickleJerkyMod()
     {
         // Register the setup method for modloading
