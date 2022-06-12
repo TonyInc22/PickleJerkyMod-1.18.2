@@ -1,0 +1,18 @@
+{
+  "item.picklejerkymod.pickle": "Pickle",
+  "item.picklejerkymod.picklespice": "Pickling Spice",
+  "item.picklejerkymod.spice": "Spice",
+  "item.picklejerkymod.jar": "Jar",
+  "item.picklejerkymod.beef_jerky": "Beef Jerky",
+  "item.picklejerkymod.pork_jerky": "Pork Jerky",
+  "item.picklejerkymod.chicken_jerky": "Chicken Jerky",
+  "item.picklejerkymod.mutton_jerky": "Mutton Jerky",
+  "item.picklejerkymod.dill": "Dill",
+
+
+  "block.picklejerkymod.dehydrater_block": "Dehydrater",
+  "block.picklejerkymod.spice_ore": "Spice Ore",
+  "block.picklejerkymod.stove_block": "Stove",
+
+  "itemGroup.picklejerkytab": "Pickle Jerky Mod"
+}
