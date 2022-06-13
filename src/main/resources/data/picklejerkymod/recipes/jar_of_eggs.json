@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SES",
+    "EJE",
+    "SES"
+  ],
+  "key": {
+    "S": {
+      "item": "picklejerkymod:picklespice"
+    },
+    "E": {
+      "item": "minecraft:egg"
+    },
+    "J": {
+      "item": "picklejerkymod:jar"
+    }
+  },
+  "result": {
+    "item": "picklejerkymod:jar_of_eggs"
+  }
+}

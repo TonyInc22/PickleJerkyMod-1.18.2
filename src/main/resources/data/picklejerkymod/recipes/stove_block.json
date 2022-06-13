@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SIS",
+    "SFS",
+    "SSS"
+  ],
+  "key": {
+    "F": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "S": {
+      "item": "minecraft:stone"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "result": {
+    "item": "picklejerkymod:stove_block"
+  }
+}

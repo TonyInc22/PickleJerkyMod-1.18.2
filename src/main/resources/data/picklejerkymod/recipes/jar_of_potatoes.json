@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SPS",
+    "PJP",
+    "SPS"
+  ],
+  "key": {
+    "S": {
+      "item": "picklejerkymod:picklespice"
+    },
+    "P": {
+      "item": "minecraft:potato"
+    },
+    "J": {
+      "item": "picklejerkymod:jar"
+    }
+  },
+  "result": {
+    "item": "picklejerkymod:jar_of_potatoes"
+  }
+}

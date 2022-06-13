@@ -8,11 +8,21 @@
   "item.picklejerkymod.chicken_jerky": "Chicken Jerky",
   "item.picklejerkymod.mutton_jerky": "Mutton Jerky",
   "item.picklejerkymod.dill": "Dill",
+  "item.picklejerkymod.cucumber": "Cucumber",
+  "item.picklejerkymod.pot": "Pot",
+  "item.picklejerkymod.jar_of_eggs": "Jar of Eggs",
+  "item.picklejerkymod.jar_of_cucumbers": "Jar of Cucumbers",
+  "item.picklejerkymod.jar_of_apples": "Jar of Apples",
+  "item.picklejerkymod.jar_of_carrots": "Jar of Carrots",
+  "item.picklejerkymod.jar_of_potatoes": "Jar of Potatoes",
+  "item.picklejerkymod.jar_of_beets": "Jar of Beets",
 
 
   "block.picklejerkymod.dehydrater_block": "Dehydrater",
   "block.picklejerkymod.spice_ore": "Spice Ore",
   "block.picklejerkymod.stove_block": "Stove",
+  "block.picklejerkymod.spice_block": "Spice Block",
 
   "itemGroup.picklejerkytab": "Pickle Jerky Mod"
+
 }

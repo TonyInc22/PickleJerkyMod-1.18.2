@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "picklejerkymod:stove_block",
+    "picklejerkymod:spice_block",
+    "picklejerkymod:dehydrater_block",
+    "picklejerkymod:spice_ore"
+  ]
+}

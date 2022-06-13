@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SBS",
+    "BJB",
+    "SBS"
+  ],
+  "key": {
+    "S": {
+      "item": "picklejerkymod:picklespice"
+    },
+    "B": {
+      "item": "minecraft:beetroot"
+    },
+    "J": {
+      "item": "picklejerkymod:jar"
+    }
+  },
+  "result": {
+    "item": "picklejerkymod:jar_of_beats"
+  }
+}

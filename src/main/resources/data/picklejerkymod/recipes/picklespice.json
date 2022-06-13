@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "picklejerkymod:dill"
+    },
+    {
+      "item": "picklejerkymod:spice"
+    }
+  ],
+  "result": {
+    "item": "picklejerkymod:picklespice"
+  }
+}

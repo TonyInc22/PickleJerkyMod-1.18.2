@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "picklejerkymod:spice_block"
+    }
+  ],
+  "result": {
+    "item": "picklejerkymod:spice",
+    "count": 9
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SCS",
+    "CJC",
+    "SCS"
+  ],
+  "key": {
+    "S": {
+      "item": "picklejerkymod:picklespice"
+    },
+    "C": {
+      "item": "picklejerkymod:cucumbers"
+    },
+    "J": {
+      "item": "picklejerkymod:jar"
+    }
+  },
+  "result": {
+    "item": "picklejerkymod:jar_of_cucumbers"
+  }
+}

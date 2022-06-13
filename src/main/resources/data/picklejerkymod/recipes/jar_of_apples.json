@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SAS",
+    "AJA",
+    "SAS"
+  ],
+  "key": {
+    "S": {
+      "item": "picklejerkymod:picklespice"
+    },
+    "A": {
+      "item": "minecraft:apple"
+    },
+    "J": {
+      "item": "picklejerkymod:jar"
+    }
+  },
+  "result": {
+    "item": "picklejerkymod:jar_of_apples"
+  }
+}

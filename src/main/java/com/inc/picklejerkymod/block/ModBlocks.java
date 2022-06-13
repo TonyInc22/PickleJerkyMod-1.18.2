@@ -32,6 +32,10 @@ public class ModBlocks {
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(5f).requiresCorrectToolForDrops()), ModCreativeModeTab.PICKLEJERKY_TAB);
 
+    public static final RegistryObject<Block> SPICE_BLOCK = registerBlock("spice_block",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(5f)), ModCreativeModeTab.PICKLEJERKY_TAB);
+
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name, toReturn, tab);
