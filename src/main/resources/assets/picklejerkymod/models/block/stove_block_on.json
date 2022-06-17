@@ -1,7 +1,7 @@
 {
   "parent": "minecraft:block/orientable",
   "textures": {
-    "top": "picklejerkymod:block/stove_block_top",
+    "top": "picklejerkymod:block/stove_block_on_top",
     "front": "picklejerkymod:block/stove_block_front",
     "side": "picklejerkymod:block/stove_block_side"
   }

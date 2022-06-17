@@ -1,5 +1,19 @@
 {
   "variants": {
-    "": { "model":  "picklejerkymod:block/dehydrater_block" }
+    "facing=east": {
+      "model": "picklejerkymod:block/dehydrater_block",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "picklejerkymod:block/dehydrater_block"
+    },
+    "facing=south": {
+      "model": "picklejerkymod:block/dehydrater_block",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "picklejerkymod:block/dehydrater_block",
+      "y": 270
+    }
   }
 }

@@ -27,17 +27,20 @@ public class ModItems {
     public static final RegistryObject<Item> DILL = ITEMS.register("dill",
             () -> new DillItem(new Item.Properties().tab(ModCreativeModeTab.PICKLEJERKY_TAB)));
 
-    public static final RegistryObject<Item> BEEF_JERKY = ITEMS.register("beef_jerky",
+    public static final RegistryObject<Item> DILL_SEED = ITEMS.register("dill_seed",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PICKLEJERKY_TAB)));
+
+    public static final RegistryObject<Item> BEEF_JERKY = ITEMS.register("beef_jerky",
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PICKLEJERKY_TAB).food(ModFoods.BEEF_JERKY)));
 
     public static final RegistryObject<Item> MUTTON_JERKY = ITEMS.register("mutton_jerky",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PICKLEJERKY_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PICKLEJERKY_TAB).food(ModFoods.MUTTON_JERKY)));
 
     public static final RegistryObject<Item> CHICKEN_JERKY = ITEMS.register("chicken_jerky",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PICKLEJERKY_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PICKLEJERKY_TAB).food(ModFoods.CHICKEN_JERKY)));
 
     public static final RegistryObject<Item> PORK_JERKY = ITEMS.register("pork_jerky",
-            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PICKLEJERKY_TAB)));
+            () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PICKLEJERKY_TAB).food(ModFoods.PORK_JERKY)));
 
     public static final RegistryObject<Item> CUCUMBER = ITEMS.register("cucumber",
             () -> new Item(new Item.Properties().tab(ModCreativeModeTab.PICKLEJERKY_TAB).food(ModFoods.CUCUMBER)));

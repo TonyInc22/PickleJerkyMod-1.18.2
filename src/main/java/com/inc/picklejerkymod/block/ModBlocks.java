@@ -1,12 +1,14 @@
 package com.inc.picklejerkymod.block;
 
 import com.inc.picklejerkymod.PickleJerkyMod;
+import com.inc.picklejerkymod.block.custom.DehydraterBlock;
 import com.inc.picklejerkymod.item.ModCreativeModeTab;
 import com.inc.picklejerkymod.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.material.Material;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -21,8 +23,8 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, PickleJerkyMod.MOD_ID);
 
     public static final RegistryObject<Block> DEHYDRATER_BLOCK = registerBlock("dehydrater_block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(9f).requiresCorrectToolForDrops()),ModCreativeModeTab.PICKLEJERKY_TAB);
+            () -> new DehydraterBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).noOcclusion()),
+            ModCreativeModeTab.PICKLEJERKY_TAB);
 
     public static final RegistryObject<Block> SPICE_ORE = registerBlock("spice_ore",
             () -> new Block(BlockBehaviour.Properties.of(Material.STONE)
